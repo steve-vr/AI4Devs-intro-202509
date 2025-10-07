@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invertir texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+</style>
+<body>
+  <h1>Invertir Cadena de Texto</h1>
+
+  <div class="container">
+    <label for="inputText">Texto de entrada:</label>
+    <input type="text" id="inputText" placeholder="Escribe algo...">
+
+    <button id="btnInvertir">Invertir</button>
+
+    <label for="outputText">Texto invertido:</label>
+    <input type="text" id="outputText" disabled>
+
+    <button id="btnCopiar">Copiar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
